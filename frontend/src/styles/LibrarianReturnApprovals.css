@@ -1,0 +1,89 @@
+.admin-container {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.admin-container h2 {
+  text-align: center;
+  color: #2563eb; /* blue-600 */
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.admin-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-container li {
+  background: #f1f5f9; /* light slate */
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  line-height: 1.6;
+}
+
+.admin-container li strong {
+  color: #334155; /* slate-700 */
+}
+
+.admin-container button {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+  margin-top: 0.5rem;
+}
+
+.admin-container button:hover {
+  opacity: 0.85;
+}
+
+.admin-container .approve-btn {
+  margin-top: 30px;
+  background: #bfdbfe; /* light blue */
+  color: #1e3a8a; /* dark blue text */
+}
+
+.admin-container .reject-btns {
+  background: #fecaca; /* light rose */
+  color: #7f1d1d; /* dark rose text */
+  margin-left: 0.5rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.pagination button {
+  margin-top: 30px;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  background: #e2e8f0; /* light gray */
+  color: #334155;
+  font-weight: 500;
+}
+
+.pagination button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.admin-container .approve-btns {
+  margin-top: 30px;
+  background: #bfdbfe; /* light blue */
+  color: #1e3a8a; /* dark blue text */
+}

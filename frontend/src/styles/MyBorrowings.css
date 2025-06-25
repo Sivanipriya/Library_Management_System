@@ -1,0 +1,155 @@
+.borrowings-page {
+  max-width: 700px;
+  margin: 150px auto;
+  padding: 2.5rem 2rem 2rem 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 32px rgba(0, 0, 0, 0.13);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.borrowings-page h2 {
+  color: #3182ce;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.borrowings-page ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.borrowings-page li {
+  background: #f1f5f9;
+  margin-bottom: 1.2rem;
+  border-radius: 10px;
+  padding: 3rem 3.5rem;
+  box-shadow: 0 2px 8px rgba(49, 130, 206, 0.07);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  position: relative;
+}
+
+.borrowings-page li strong {
+  color: #2d3748;
+}
+
+.borrowings-page button {
+  margin-right: 20px;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  background: #3182ce;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.borrowings-page button:hover {
+  background: #2563eb;
+}
+
+.borrowings-page span {
+  color: #38a169;
+  font-weight: 600;
+  margin-top: 0.7rem;
+  display: inline-block;
+}
+/* Add to your navbar CSS */
+.navbar-borrowings-btn {
+  margin-left: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: #fff;
+  color: #2b6cb0;
+  border: none;
+  border-radius: 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.navbar-borrowings-btn:hover {
+  background: #e2e8f0;
+  color: #2b6cb0;
+}
+/* Search input with clear button */
+.borrowings-search-form {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.borrowings-search-input {
+  padding: 0.9rem 2.2rem 0.5rem 1rem; /* right padding for the cross */
+  border-radius: 20px;
+  border: 1px solid #cbd5e1;
+  width: 90%;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.borrowings-search-input:focus {
+  border: 1.5px solid #2563eb;
+}
+
+.borrowings-search-clear {
+  position: absolute;
+  right: -1.3rem;
+  top: 23%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #888;
+  background: none;
+  border: none;
+  padding: 0;
+  line-height: 1;
+  z-index: 2;
+}
+
+.borrowings-search-clear:hover {
+  color: #cbd5e1;
+}
+/* Add to your MyBorrowings.css */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.pagination button {
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  background: #3182ce;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.pagination button:disabled {
+  background: #e2e8f0;
+  color: #a0aec0;
+  cursor: not-allowed;
+  border: 1px solid #cbd5e1;
+  opacity: 0.7;
+}
+.pagination span {
+  padding: 0 10px;
+  font-weight: 600;
+}

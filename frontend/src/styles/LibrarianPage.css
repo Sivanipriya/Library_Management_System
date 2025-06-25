@@ -1,0 +1,66 @@
+.librarian-home {
+  padding: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.librarian-home h2 {
+  font-size: 2rem;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+.dashboard-boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.dashboard-box {
+  background: #3182ce;
+  color: #fff;
+  padding: 1.3rem 3rem;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+}
+
+.dashboard-box:hover {
+  opacity: 0.9;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+}
+
+
+.librarian-stats-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: #edf2f7;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  min-width: 150px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #2b6cb0;
+}
+
+.stat-card p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0.4rem 0 0;
+}

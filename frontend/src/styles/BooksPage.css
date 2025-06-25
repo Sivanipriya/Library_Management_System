@@ -1,0 +1,363 @@
+.book-page {
+  max-width: 700px;
+  margin: 150px auto;
+  padding: 2.5rem 2rem 2rem 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 32px rgba(0, 0, 0, 0.13);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-page h2 {
+  color: #3182ce;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.book-page form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.book-page input[type="text"] {
+  width: 60%;
+  padding: 0.7rem 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f8fafc;
+  transition: border 0.2s;
+}
+
+.book-page input[type="text"]:focus {
+  border: 1.5px solid #3182ce;
+  outline: none;
+  background: #fff;
+}
+
+.book-page ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.book-page li {
+  background: #f1f5f9;
+  margin-bottom: 1.2rem;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(49, 130, 206, 0.07);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  position: relative;
+}
+
+.book-page li strong {
+  color: #2d3748;
+}
+
+.book-page button {
+  margin-right: 0.7rem;
+  padding: 0.5rem 1.2rem;
+  background: #3182ce;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.book-page button:hover {
+  opacity: 0.9;
+}
+
+.book-page > button {
+  margin-top: 2rem;
+  padding: 0.7rem 2rem;
+  font-size: 1.1rem;
+  background: #2b6cb0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+/* Add at the end of BooksPage.css */
+.add-book-btn-fixed {
+  position: fixed;
+  bottom: 32px;
+  right: 40px;
+  padding: 0.9rem 2.2rem;
+  background: #2b6cb0;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  box-shadow: 0 4px 16px rgba(56, 178, 172, 0.15);
+  cursor: pointer;
+  transition: background 0.2s;
+  z-index: 100;
+}
+
+.add-book-btn-fixed:hover {
+  background: #319795;
+}
+.pagination button:disabled {
+  background: #e2e8f0;
+  color: #a0aec0;
+  cursor: not-allowed;
+  border: 1px solid #cbd5e1;
+  opacity: 0.7;
+}
+
+.pagination span {
+  padding-right: 15px;
+  padding-left: 5px;
+}
+
+.pagination-disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 59px;
+  right: 32px;
+  background: #3182ce;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 200;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-to-top-btn:hover {
+  background: #2b6cb0;
+}
+/* Add to BooksPage.css */
+.books-search-form {
+  position: relative;
+  max-width: 350px;
+  margin: 0 auto 1.5rem auto;
+}
+.books-search-input {
+  padding: 0.5rem 2.2rem 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid #cbd5e1;
+  width: 100%;
+  font-size: 1rem;
+}
+.books-search-clear {
+  position: absolute;
+  right: 0.7rem;
+  top: 5%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #888;
+  background: none;
+  border: none;
+  padding: 0;
+  line-height: 1;
+  z-index: 2;
+}
+.books-search-clear:hover {
+  color: #2563eb;
+}
+/* .genre-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.genre-btn {
+  padding: 0.5rem 1.3rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #f0f4f8;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.95rem;
+}
+
+.genre-btn:hover {
+  background: #cce4f6;
+}
+
+.genre-btn.selected {
+  background: #3182ce;
+  color: #fff;
+  border-color: #3182ce;
+} */
+
+.genre-dropdown-container {
+  width: 60%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
+.genre-dropdown {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+  background: #f8fafc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.genre-dropdown:focus {
+  outline: none;
+  border-color: #3182ce;
+  background: #fff;
+}
+
+.book-page li img {
+  display: block;
+  margin: 0 auto 0.5rem auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.book-card {
+  background: #f1f5f9;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(49, 130, 206, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+}
+
+.book-image {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-info {
+  font-size: 0.95rem;
+  color: #2d3748;
+  line-height: 1.5;
+}
+.book-page ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-page li {
+  display: flex;
+  align-items: center;
+  background: #f8fafc;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.book-page li img {
+  width: 100px;
+  height: auto;
+  border-radius: 6px;
+  margin-right: 1.5rem;
+}
+
+.book-details {
+  flex: 1;
+}
+
+.book-details strong {
+  color: #1e293b;
+}
+
+.book-actions {
+  margin-top: 0.5rem;
+}
+
+.book-actions button {
+  margin-right: 0.5rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-actions .edit-btn {
+  background: #3b82f6; /* blue */
+  color: white;
+}
+
+.book-actions .delete-btn {
+  background: #ef4444; /* red */
+  color: white;
+}
+.book-image {
+  width: 140px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-card h3 {
+  margin: 0.3rem 0;
+  font-size: 1.1rem;
+  color: #2c5282;
+}
+
+.book-desc {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #4a5568;
+  max-height: 4.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.filters input,
+.filters select {
+  width: 100px;
+}

@@ -1,0 +1,244 @@
+.admin-container {
+  max-width: 600px;
+  margin: 500px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.view-users-btn {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  background: #3182ce;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-right: 20px;
+}
+
+.view-users-btn:hover {
+  opacity: 0.92;
+}
+
+.users-tab-page {
+  margin-top: 2rem;
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(49, 130, 206, 0.07);
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1.2rem;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  color: #3182ce;
+  transition: border 0.2s, color 0.2s;
+}
+
+.tabs button.active {
+  border-bottom: 2.5px solid #3182ce;
+  color: #3182ce;
+  font-weight: bold;
+}
+
+.tab-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.close-btn {
+  float: right;
+  background: #e53e3e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.close-btn:hover {
+  background: #c53030;
+}
+.approve-btn {
+  margin-left: 1rem;
+  background: #38a169;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+.approve-btn:hover {
+  background: #2f855a;
+}
+.users-tab-page {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.09);
+  padding: 2rem;
+  max-width: 480px;
+  margin: 2rem auto;
+}
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.tabs button {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  background: #e2e8f0;
+  color: #3182ce;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.tabs button.active {
+  background: #3182ce;
+  color: #fff;
+}
+.tab-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.approve-btn,
+.delete-btn {
+  margin-left: 1rem;
+  padding: 0.3rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+.approve-btn {
+  background: #38a169;
+  color: #fff;
+}
+.delete-btn {
+  background: #c53030;
+  color: #fff;
+}
+.pagination {
+  margin-top: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.tab-content li {
+  background: #f8fafc;
+  margin-bottom: 0.7rem;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center; /* Ensures vertical alignment */
+  justify-content: space-between;
+}
+
+.user-email {
+  flex-grow: 1; /* Takes remaining space */
+  text-align: left;
+}
+
+.btn-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.approve-btn,
+.delete-btn {
+  padding: 0.3rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.approve-btn {
+  background: #38a169;
+  color: #fff;
+}
+
+.delete-btn {
+  background: #c53030;
+  color: #fff;
+}
+.btn-group {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.activate-btn {
+  background-color: #38a169; /* green */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.activate-btn:hover {
+  background-color: #2f855a;
+}
+
+.deactivate-btn {
+  background-color: #d69e2e; /* yellow/orange */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.deactivate-btn:hover {
+  background-color: #b7791f;
+}
+
+.admin-stats-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: #edf2f7;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  min-width: 150px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #2b6cb0;
+}
+
+.stat-card p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0.4rem 0 0;
+}

@@ -1,0 +1,17 @@
+.site-footer {
+  background-color: #2b6cb0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #fff;
+  border-top: 1px solid #e2e8f0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.site-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+}

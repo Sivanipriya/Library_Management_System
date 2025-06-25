@@ -1,0 +1,79 @@
+.add-book-container {
+  max-width: 480px;
+  margin: 150px auto;
+  padding: 2.5rem 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-book-container h2 {
+  color: #2563eb; /* brighter blue */
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+}
+
+.add-book-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.add-book-container input[type="text"],
+.add-book-container input[type="date"],
+.add-book-container input[type="number"],
+.add-book-container input[type="file"],
+.add-book-container textarea {
+  padding: 0.8rem 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f9fafb;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.add-book-container input[type="file"] {
+  background: #f1f5f9;
+}
+
+.add-book-container input:focus,
+.add-book-container textarea:focus {
+  border: 1.5px solid #2563eb;
+  outline: none;
+  background: #fff;
+}
+
+.add-book-container label {
+  font-size: 1rem;
+  color: #374151;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.add-book-container button[type="submit"] {
+  padding: 0.9rem 0;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.add-book-container button[type="submit"]:hover {
+  background: #1e40af;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}
+
+.add-book-container input[type="number"] {
+  width: 100px;
+}
